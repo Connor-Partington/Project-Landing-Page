@@ -117,3 +117,63 @@ a {
 .cube-text {
     color: slategray;
 }
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 30%;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 24px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.info-modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    gap: 180px;
+}
+
+.modal-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.modal-text {
+    color: #F9FAF8;
+}
+
+.signup.modal {
+    border: 2px solid white;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px 20%;
+}
