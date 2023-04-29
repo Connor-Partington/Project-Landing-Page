@@ -6,8 +6,6 @@
     font-size: 18px;
 }
 
-
-
 .section-1-container {
     background-color: #1F2937;
     display: flex;
@@ -15,14 +13,14 @@
 }
 
 .header {
-    border: 1px solid #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1050px;
 	max-width: 100%;
-	padding: 20px;
+	padding: 20px 0;
 	margin: 0 auto;
+    margin-bottom: 80px;
 }
 
 .logo {
@@ -44,4 +42,57 @@ li {
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.hero-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1050px;
+	max-width: 100%;
+	margin: 0 auto;
+    gap: 45px;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.hero-title {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 49px;
+}
+
+.hero-subtext {
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.signup {
+    color: #f9faf8;
+    font-weight: bold;
+    background-color: #3882f6;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.hero-right {
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D747D;
+    flex: 1.24;
+}
+
+.image {
+    color: #f9faf8;
+    text-align: center;
 }
