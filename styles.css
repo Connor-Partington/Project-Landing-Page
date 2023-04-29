@@ -6,16 +6,12 @@
     font-size: 18px;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .section-1-container {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 0 20%;
 }
 
 .header {
@@ -23,6 +19,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1050px;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
 }
 
 .logo {
